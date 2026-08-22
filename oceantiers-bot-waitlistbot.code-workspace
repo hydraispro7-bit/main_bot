@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "oceantiers-bot-waitlistbot",
+			"path": "oceantiers-bot-waitlistbot"
+		},
+		{
+			"name": "main_bot",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
