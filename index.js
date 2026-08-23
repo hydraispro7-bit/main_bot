@@ -443,4 +443,4 @@ client.on('interactionCreate', async interaction => {
     } catch (error) { console.error(error); }
 });
 
-client.login(TOKEN);
+client.login(process.env.DISCORD_TOKEN);
