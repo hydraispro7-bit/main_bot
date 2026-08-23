@@ -13,6 +13,11 @@ app.use(cors());
 app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
+// Yeh raha naya code jo aapko add karna hai:
+app.get('/', (req, res) => {
+  res.redirect('https://oceantiers-boards.netlify.app/');
+});
+
 const QUEUE_FILE = 'queue_data.json';
 const USERS_FILE = 'registered_users.json';
 const RANKS_FILE = 'ranks_data.json';
