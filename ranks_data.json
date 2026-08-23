@@ -22,5 +22,13 @@
     "previousRank": "high Tier 4",
     "region": "AS",
     "gamemode": "crystal"
+  },
+  "SUI_spear": {
+    "ign": "SUI",
+    "userId": "1419218015463014484",
+    "rank": "High Tier 5",
+    "previousRank": "Unranked",
+    "region": "ME",
+    "gamemode": "spear"
   }
 }
