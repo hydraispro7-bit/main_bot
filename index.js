@@ -82,8 +82,7 @@ const client = new Client({
     ]
 });
 
-process.env.DISCORD_TOKEN
-client.login(TOKEN);
+client.login(process.env.DISCORD_TOKEN);
 
 const ALLOWED_ROLE_IDS = ['1533808158131224837', '1533102895967502437', '1534156059252359218'];
 const CATEGORY_ID = '1534521022068559882';
