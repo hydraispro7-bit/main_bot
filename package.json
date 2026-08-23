@@ -1,15 +1,13 @@
 {
   "name": "oceantiers-bot",
   "version": "1.0.0",
-  "description": "Discord Bot",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "discord.js": "^14.14.1",
-    "express": "^4.19.2",
-    "cors": "^2.8.5"
+    "express": "^4.19.2"
   }
 }
