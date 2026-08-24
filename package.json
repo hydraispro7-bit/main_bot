@@ -2,8 +2,9 @@
   "name": "oceantiers-bot",
   "version": "1.0.0",
   "type": "module",
-  "scripts": {
-    "start": "node index.js"
+ "scripts": {
+  "start": "node index.js"
+
   },
   "dependencies": {
     "cors": "^2.8.5",

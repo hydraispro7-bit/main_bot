@@ -82,7 +82,7 @@ const client = new Client({
     ]
 });
 
-client.login(process.env.DISCORD_TOKEN);
+
 
 const ALLOWED_ROLE_IDS = ['1533808158131224837', '1533102895967502437', '1534156059252359218'];
 const CATEGORY_ID = '1534521022068559882';
@@ -443,4 +443,4 @@ client.on('interactionCreate', async interaction => {
     } catch (error) { console.error(error); }
 });
 
-client.login(process.env.DISCORD_TOKEN);
+client.login('MTUzNjAxMjM0OTY0MTg1NTA3Nw.GEG5UM.9S2XU0eHTDWOR-P0aWouJ0zCEMDnqfY1mYzNzg');
